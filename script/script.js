@@ -8,7 +8,7 @@ function setClock() {
       const date = new Date();
       const hour = date.getHours() * 30;
       const minute = date.getMinutes() * deg;
-    
+  
       const second = date.getSeconds() * deg;
   
       hourHand.style.transform = `rotate(${hour + minute / 12}deg)`;
