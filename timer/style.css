@@ -1,0 +1,105 @@
+body {
+    background: url('../image/clock-image.png')no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.main{
+    /* background-color: rgb(57, 68, 68, 0.5); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 10px;
+    margin: 100px;
+    height: 320px;
+    width: 320px;
+    border-radius: 170px; */
+}
+
+.timer-hse{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #333;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.play-btn{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: green;
+    color: green;
+}
+
+.play-btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.pause-btn{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgb(135, 128, 236);
+    color: rgb(16, 108, 245);
+}
+
+.pause-btn:hover{
+    background-color: rgb(135, 128, 236);
+    color: white;
+}
+
+.reset-btn{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: red;
+    color: red;
+}
+
+.reset-btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.reset-btn:active{
+    border-color: black;
+    color: black;
+    background-color: rgb(173, 250, 250);
+}
+
+.clock-btn{
+    border-color: rgb(212, 0, 255);
+    color: rgb(212, 0, 255);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.clock-btn:hover{
+    background-color: rgb(212, 0, 255);
+    color: white;
+  }
+
+  .clock-btn:active{
+    background-color:rgb(244, 199, 245) ;
+    color: #333;
+    border: none;
+  }
+
+.name1{
+    color: black;
+}
+

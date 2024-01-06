@@ -4,7 +4,14 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background: url('/image/clock-image.png') no-repeat center center/ cover;
+  }
+
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   
   .clock {
@@ -75,4 +82,66 @@ body {
   .number11 { top: 30px; right: 160px; }
   .number12 { top: -2px; left: 90px; }
   
+  .view{
+    margin-top: 10px;
+  }
+  .btn{
+    margin-top: 10px;
+  }
+  .view-time-btn{
+    border-color: green;
+    color: green;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .view-time-btn:hover{
+    background-color: green;
+    color: white;
+  }
+
+  .view-time-btn:active{
+    background-color: rgb(193, 254, 193);
+    color: #000;
+    border: none;
+  }
+
+  .view-date-btn{
+    border-color: rgb(135, 128, 236);
+    color: rgb(16, 108, 245);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .view-date-btn:hover{
+    background-color: rgb(135, 128, 236);
+    color: white;
+  }
+
+  .view-date-btn:active{
+    background-color: rgb(218, 215, 251);
+    color: black;
+    border: none;
+  }
+
+  .timer-btn{
+    border-color: rgb(212, 0, 255);
+    color: rgb(212, 0, 255);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .timer-btn:hover{
+    background-color: rgb(212, 0, 255);
+    color: white;
+  }
+
+  .timer-btn:active{
+    background-color:rgb(244, 199, 245) ;
+    color: #333;
+    border: none;
+  }
   
