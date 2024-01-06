@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: url('/image/clock-image.png') no-repeat center center/ cover;
+    background: url('/image/clock-image1.png') no-repeat center center/ cover;
   }
 
   .main{
@@ -12,6 +12,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 90%; 
+    margin: 0 auto;
+    padding: 10px;
   }
   
   .clock {
@@ -50,6 +53,7 @@ body {
     height: 100px;
     top: 0;
     left: 99px;
+    background-color: red;
   }
   
   .center-circle {
@@ -144,4 +148,22 @@ body {
     color: #333;
     border: none;
   }
+
+  @media screen and (max-width: 451px) {
+    body {
+        background-size: contain; 
+    }
+
+    .main{
+      max-width: 95%;
+      padding: 5px;
+    }
+
+    .clock {
+        width: 200px; 
+        height: 200px;
+       
+    }
+
+}
   

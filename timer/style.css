@@ -1,5 +1,5 @@
 body {
-    background: url('../image/clock-image.png')no-repeat center center/cover;
+    background: url('../image/clock-image1.png')no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .play-btn{
