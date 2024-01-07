@@ -20,7 +20,8 @@ body {
   .clock {
     width: 200px;
     height: 200px;
-    border: 10px solid #333;
+    background: url('/image/clock-face-png-roman-numerals-clock.png') no-repeat center center/ cover;
+    /* border: 10px solid #333; */
     border-radius: 50%;
     position: relative;
   }
