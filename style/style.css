@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: url('/image/clock-image1.png') no-repeat center center/ cover;
+    background: url('../image/clock-image1.png') no-repeat center center/ cover;
   }
 
   .main{
@@ -20,7 +20,7 @@ body {
   .clock {
     width: 200px;
     height: 200px;
-    background: url('/image/clock-face-png-roman-numerals-clock.png') no-repeat center center/ cover;
+    background: url('../image/clock-face-png-roman-numerals-clock.png') no-repeat center center/ cover;
     /* border: 10px solid #333; */
     border-radius: 50%;
     position: relative;
