@@ -150,21 +150,23 @@ body {
     border: none;
   }
 
-  @media screen and (max-width: 451px) {
+  @media only screen and (max-width: 480px) {
     body {
-        background-size: contain; 
+        background-size: cover;
     }
 
-    .main{
-      max-width: 95%;
-      padding: 5px;
+    .main {
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-size: cover;
     }
 
-    .clock {
-        width: 200px; 
-        height: 200px;
-       
+    .main {
+        margin: 30px;
     }
-
 }
   

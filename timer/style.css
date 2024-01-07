@@ -103,3 +103,23 @@ body {
     color: black;
 }
 
+@media only screen and (max-width: 480px) {
+    body {
+        background-size: cover;
+    }
+
+    .main {
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-size: cover;
+    }
+
+    .main {
+        margin: 30px;
+    }
+}
+
