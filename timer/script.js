@@ -52,7 +52,6 @@ function play(){
         minute++;
 
         if(minute === 60){
-
             minute = 0;
             hours++;
         }
