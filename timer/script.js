@@ -2,6 +2,8 @@ let timerHse = document.querySelector('.timer-hse');
 let playButton = document.querySelector('.play-btn');
 let resetButton = document.querySelector('.reset-btn');
 let clockButton = document.querySelector('.clock-btn');
+let alarmButton = document.querySelector('.alarm-btn');
+
 
 
 
@@ -45,6 +47,11 @@ clockButton.addEventListener('click', () => {
     window.location.href = '../index.html'
 });
 
+alarmButton.addEventListener('click', () => {
+  document.location.href = '../alarm/index.html';
+})
+
+
 function play(){
     seconds++;
     if(seconds === 60){
@@ -62,3 +69,4 @@ function play(){
 function displayTime(){
     timerHse.innerHTML = `${hours.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`
 }
+

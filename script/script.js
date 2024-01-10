@@ -5,6 +5,7 @@ const hourHand = document.querySelector('.hour-hand');
 const minuteHand = document.querySelector('.minute-hand');
 const secondHand = document.querySelector('.second-hand');
 const view = document.querySelector('.view');
+const alarmButton = document.querySelector('.alarm-btn');
 
 let timeIntervalId;
 
@@ -27,6 +28,10 @@ viewDateButton.addEventListener('click', () => {
 
 timerButton.addEventListener('click', () => {
   document.location.href = 'timer/index.html'
+})
+
+alarmButton.addEventListener('click', () => {
+  document.location.href = 'alarm/index.html';
 })
 
 function updateTimeInView() {

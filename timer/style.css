@@ -80,6 +80,25 @@ body {
     background-color: rgb(173, 250, 250);
 }
 
+.alarm-btn{
+    border-color: rgb(35, 34, 35);
+    color: rgb(35, 34, 35);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .alarm-btn:hover{
+    background-color: rgb(35, 34, 35);
+    color: white;
+  }
+
+  .alarm-btn:active{
+    background-color:rgb(125, 123, 125) ;
+    color: #c5bfbf;
+    border: none;
+  }
+
 .clock-btn{
     border-color: rgb(212, 0, 255);
     color: rgb(212, 0, 255);
